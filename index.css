@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  display: flex;
+  margin: 30px 30px;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.Container{
+  border: 1px solid ;
+  margin-left: 400px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 3px 3px 3px 3px black;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-left: 4px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #87e877;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+.Container .increase{
+  background-color: rgb(184, 115, 5);
+}
+
+.Container .Decrease{
+  background-color: rgb(98, 124, 239);
+}
